@@ -1,0 +1,76 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/andreas/build/dotfiles/.emacs.d/" . "elisp/")
+ ("/home/andreas/build/dotfiles/" . ".emacs.d/")
+ ("/home/andreas/projects/java/RPN/" . "src/")
+ ("/home/andreas/projects/java/" . "RPN/")
+ ("/home/andreas/" . "projects/")
+ ("/home/andreas/Downloads/" . "Introduction to Java Programming- Comprehensive, 10E [PDF] [StormRG]/")
+ ("/home/andreas/projects/" . "c/")
+ ("/home/andreas/.emacs.d/" . "elisp/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/andreas/"
+ "/home/andreas/build/dotfiles/"
+ "/home/andreas/build/dotfiles/.emacs.d/elisp/"
+ "/home/andreas/org/"
+ "/home/andreas/projects/java/RPN/src/"
+ "/home/andreas/projects/java/"
+ "/home/andreas/projects/"
+ "/home/andreas/Downloads/Introduction to Java Programming- Comprehensive, 10E [PDF] [StormRG]/"
+ "/home/andreas/projects/c/"
+ "/home/andreas/.emacs.d/elisp/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "gnus-notify.el"
+ ".gnus"
+ "todo.org"
+ "Parser.java"
+ "Introduction to Java Programming, Comprehensive Version, 10th Edition- Y. Daniel Liang.pdf"
+ "main.c"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/andreas/" (21989 47751 753643 759000) "Mail/" "News/" ".newsrc.eld" ".newsrc" "todo.org" "todo.org~" ".steampid" ".steampath" ".zsh_history" "org/" "timeplan.org" ".lesshst" ".octave_hist" ".gnome2_private/" ".gnome2/" ".java/" "rouge.sh" ".thumbnails/" ".gimp-2.8/" ".gitconfig" "mnt/" "mpd/" "Music/" "octave-workspace" ".macromedia/" ".adobe/" ".octave_packages" "octave/" ".python_history" "workspace/" ".eclipse/" ".TelegramDesktop/" ".gnome/" ".npm/" ".mono/" "spuermeatboy.sh" ".zcompdump-andreas-l0-5.0.8" ".lyrics/" ".fehbg" "Pictures/" ".zshrc" ".Xresources" ".xinitrc" ".Xcolors" ".ncmpcpp/" ".mpdconf" ".irssi/" ".gtkrc-2.0" ".gnus" ".emacs.d/" ".emacs" "bin/" ".authinfo" ".composer/" ".vimperator/" "projects/" ".mailcap" ".w3m/" ".cortex/" ".Heaven/" ".pulse-cookie" ".pki/" ".steam/" ".nv/" ".esd_auth" ".local/" ".xsel.log" ".ssh/" ".Xauthority" "Desktop/" ".mozilla/" ".gnupg/" ".dbus/" ".config/" "Downloads/" ".zsh-update" ".cache/" "build/" ".bash_history" ".oh-my-zsh/" ".bash_logout" ".bash_profile" ".bashrc" "../" "./")
+
+ ("/home/andreas/build/dotfiles/.emacs.d/elisp/" (21988 7943 644049 770000) "gnus-notify.el" "sass-mode.el" "haml-mode.el" "../" "./")
+
+ ("/home/andreas/build/dotfiles/.emacs.d/elpa/" (21988 20272 810044 142000) "xkcd-20140505.511/" "xkcd-readme.txt" "gnus-desktop-notify-readme.txt" "gnorb-readme.txt" "twittering-mode-20150131.708/" "hydra-20150811.2252/" "hydra-readme.txt" "ace-jump-mode-20140616.115/" "ace-window-20150803.837/" "avy-20150824.211/" "ace-window-readme.txt" "unbound-20140307.128/" "helm-git-20120630.1403/" "helm-google-20141228.340/" "helm-helm-commands-20130902.1048/" "helm-make-20150824.445/" "projectile-20150807.620/" "helm-mode-manager-20140224.1504/" "helm-20150824.2209/" "helm-core-20150824.2209/" "async-20150818.1154/" "libmpdee-20150131.1357/" "w3m-20150608.1838/" "auto-complete-20150618.1949/" "auto-complete-c-headers-20140325.835/" "auto-complete-clang-async-20130526.814/" "auto-complete-clang-async-readme.txt" "auto-complete-clang-readme.txt" "eide-readme.txt" "hamlet-mode-readme.txt" "guru-mode-readme.txt" "flycheck-clangcheck-20150614.128/" "flycheck-color-mode-line-20131125.2138/" "flycheck-irony-20150308.1230/" "irony-20150708.1344/" "flycheck-rust-20150609.1248/" "flylisp-0.2.signed" "flylisp-0.2/" "flymake-cppcheck-20140415.557/" "flymake-css-20121104.1104/" "flymake-python-pyflakes-20131127.6/" "flymake-rust-20141004.1552/" "flymake-sass-20140308.325/" "flymake-shell-20121104.1100/" "flymake-easy-20140818.55/" "gh-20150126.1125/" "pcache-20150125.1653/" "logito-20120225.1255/" "gh-md-20150528.1927/" "google-20140330.856/" "google-maps-20130412.230/" "google-this-20150522.240/" "hackernews-20150216.218/" "flycheck-20150709.1237/" "pkg-info-20150517.443/" "epl-20150517.433/" "let-alist-1.0.4.signed" "let-alist-1.0.4/" "flycheck-readme.txt" "facemenu+-readme.txt" "evil-tutor-20150102.2250/" "evil-org-20150513.1610/" "evil-org-readme.txt" "evil-iedit-state-readme.txt" "buffer-move-20150523.513/" "neotree-20150704.718/" "rust-mode-20150707.1211/" "rust-mode-readme.txt" "magit-20150704.823/" "git-commit-20150701.1326/" "with-editor-20150701.1246/" "magit-popup-20150701.1246/" "dash-20150704.253/" "magit-readme.txt" "web-mode-20150304.1240/" "vc-auto-commit-readme.txt" "undo-tree-20140509.522/" "relative-line-numbers-20141018.1252/" "readability-readme.txt" "rdp-readme.txt" "pyenv-mode-readme.txt" "pydoc-readme.txt" "pydoc-20150412.1214/" "popup-20150315.612/" "polymode-20150105.931/" "php-mode-readme.txt" "php-mode-20150304.716/" "php+-mode-20121129.1252/" "pg-20130731.1442/" "multi-web-mode-readme.txt" "multi-web-mode-20130823.2054/" "mouse+-readme.txt" "minibuffer-line-readme.txt" "minibuffer-line-0.1/" "minibuffer-line-0.1.signed" "markdown-mode-readme.txt" "markdown-mode-20150121.1229/" "markdown-mode+-20120829.510/" "jekyll-modes-readme.txt" "jekyll-modes-20141117.514/" "goto-chg-20131228.1459/" "gnupg/" "gh-md-readme.txt" "gh-md-20150311.722/" "format-sql-readme.txt" "finalize-20140127.1046/" "evil-readme.txt" "evil-20150413.0/" "emacsql-readme.txt" "easy-repeat-readme.txt" "easy-repeat-20150516.148/" "doremi-readme.txt" "docker-tramp-readme.txt" "company-racer-readme.txt" "cloc-readme.txt" "cloc-20150427.1947/" "browse-kill-ring-readme.txt" "browse-kill-ring-20150518.1312/" "browse-kill-ring+-readme.txt" "browse-kill-ring+-20150104.2132/" "avy-readme.txt" "auto-complete-20150408.1132/" "archives/" "ac-c-headers-readme.txt" "ac-c-headers-20150329.710/" "../" "./")
+
+ ("/home/andreas/build/dotfiles/.emacs.d/" (21988 20290 90045 100000) "xkcd/" "ac-comphist.dat" "nbinds.el" "nbinds.el~" "var/" "auto-save-list/" "url/" "eshell/" "elpa/" "elisp/" "../" "./")
+
+ ("/home/andreas/build/dotfiles/" (21989 46568 780244 870000) "octave-workspace" ".emacs" ".emacs~" "arch-prep.sh" ".zshrc" ".gtkrc-2.0" ".authinfo" ".gnus" "install.sh" "bin/" ".xinitrc" ".ncmpcpp/" ".mpdconf" ".irssi/" ".gitignore" ".emacs.d/" ".config/" ".Xresources" ".Xcolors" ".git/" "../" "./")
+
+ ("/home/andreas/org/" (21989 36716 804449 118000) "timeplan.org" "timeplan.org~" "notes.html" "notes.html~" "notes.org" "notes.org~" "../" "./")
+
+ ("/home/andreas/projects/java/RPN/src/" (21988 20279 403377 840000) "Parser.java" "Parser.java~" "../" "./")
+
+ ("/home/andreas/projects/java/RPN/" (21988 12219 737620 65000) "main.jar" "Parser.class" "manifest.txt" "Makefile" "Makefile~" "src/" "../" "./")
+
+ ("/home/andreas/projects/java/lesson2/" (21989 17017 490024 133000) "../" "./")
+
+ ("/home/andreas/projects/java/" (21989 17017 490024 133000) "lesson2/" "RPN/" "DoMathStuffs/" "lesson1/" "../" "./")
+
+ ("/home/andreas/Downloads/Introduction to Java Programming- Comprehensive, 10E [PDF] [StormRG]/" (21982 943 813183 641000) "Introduction to Java Programming, Comprehensive Version, 10th Edition- Y. Daniel Liang.pdf" "Cover.jpg" "Metadata.opf" "../" "./")
+
+ ("/home/andreas/Downloads/" (21987 27280 908367 135000) "Fargo.S01E03.720p.HDTV.x264-REMARKABLE.mkv" "Birdman (2014) [1080p]/" "Exercise02_23.java" "Exercise02_15.java" "Exercise02_09.java" "Exercise02_06.java" "Exercise02_02.java" "Exercise02_01.java" "Løsningsforslag oppgaver fra kapittel 2.7z" "BrukerManual_Multifunksjonsmaskiner_engelsk.pdf" "Fargo.S01E02.720p.HDTV.x264-KILLERS.mkv" "Introduction to Java Programming- Comprehensive, 10E [PDF] [StormRG]/" "Inconsolata.otf" "2_LinjekartBod.pdf" "Legge til Skriver.pdf" "18082015.ppt" "17082015 (1).ppt" "17082015.ppt" "njwtegl.emacs" "Release.key" "src/" "README.md" "popcorntime.png" "Popcorn-Time" "package.json" "nw.pak" "node_modules/" "locales/" "LICENSE.txt" "libffmpegsumo.so" "install" "icudtl.dat" "CHANGELOG.md" "Popcorn-Time-0.3.8-2-Linux-64.tar.xz" "OpenELEC-RPi.arm-5.0.8.img" "OpenELEC-RPi.arm-5.0.8/" "OpenELEC-RPi.arm-5.0.8.tar" "speedof.me_history_15-07-11.pdf" "gapps-5.1-2015-07-03-13-41.zip" "cm-12.1-20150708-NIGHTLY-hammerhead.zip" "recovery-clockwork-6.0.4.5-hammerhead.img" "OSMC_TGT_rbp1_20150628.img" "OSMC_TGT_rbp1_20150628.img.gz" "../" "./")
+
+ ("/home/andreas/projects/c/" (21976 45425 406663 40000) "pointers" "Makefile" "Makefile~" "pointers.c" "pointers.c~" "../" "./")
+
+ ("/home/andreas/projects/" (21976 38428 276663 749000) "c/" "octave/" "matte/" "java/" "testing/" "newvmpp/" "newvm/" "database/" "site/" "rustest/" "../" "./")
+
+ ("/home/andreas/.emacs.d/elisp/" (21988 7943 644049 770000) "gnus-notify.el" "sass-mode.el" "haml-mode.el" "../" "./")
+
+ ("/home/andreas/.emacs.d/" (21988 20290 90045 100000) "xkcd/" "ac-comphist.dat" "nbinds.el" "nbinds.el~" "var/" "auto-save-list/" "url/" "eshell/" "elpa/" "elisp/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

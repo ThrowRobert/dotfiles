@@ -1,0 +1,7 @@
+#tmpfile="/tmp/scrot.png"
+#scrot $tmpfile
+#convert $tmpfile -scale 10% -scale 1000% $tmpfile
+#i3lock -u -i $tmpfile
+i3lock -d -u -i ~/Pictures/lockscreen.png
+sleep 1
+xset dpms force standby

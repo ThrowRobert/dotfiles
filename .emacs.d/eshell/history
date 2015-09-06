@@ -1,0 +1,72 @@
+l
+ls
+dired
+dd
+d
+alias d='dired'
+d .
+alias d='dired'
+d
+dired .
+sudo apt-get install vivaldi
+virtualenv -p python3 env
+l
+source env/bin/activate_this.py
+source env/bin/activate
+l
+python3 main.py 
+python3 main.py 
+clear
+clear
+clear
+cls
+clear
+python3 main.py 
+python3 main.py 
+python3 main.py 
+python3 main.py 
+python3 main.py 
+python3 main.py 
+python3 main.py 
+python3 main.py 
+python3 main.py 
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+ls
+l
+la
+help
+help
+l
+la
+ls
+ls -a
+tre
+git
+tee
+ls
+pwd
+mkdir projects
+cd projects/

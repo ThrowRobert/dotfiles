@@ -1,0 +1,5 @@
+#!/bin/bash
+sleep $1
+echo "%{c}TEA IS DONE!%{S+}%{c}TEA IS DONE!" | lemonbar -B#FF990000 -p -g x50++23
+
+

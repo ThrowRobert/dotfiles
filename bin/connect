@@ -1,0 +1,15 @@
+sudo rfkill unblock all
+read "< (h) | (s) | (a) >"  connect
+if [[ $connect == "h" ]]; then
+	#statements
+	sudo netctl switch-to wlp2s0-queen
+fi
+if [[ $connect == "s" ]]; then
+	#statements
+	sudo netctl switch-to wlp2s0-NFK
+fi
+if [[ $connect == "a" ]]; then
+	#statements
+	sudo netctl switch-to wlp2s0-privat8482fin
+fi
+ip a | grep wlp2s0 | grep inet

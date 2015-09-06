@@ -1,0 +1,25 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".google.no"
+  [url-cookie "HttpOnly" nil "20-Nov-2015 21:33:23.00 GMT" "/" ".google.no" nil]
+  [url-cookie "NID" "67=WHqn6tfGYe4qcrWJvBF9ckYApI9PD92HlmEvZl-I6IDsnAUKzxhJ9Q-dSHrGf9Py7IbjfcunwMgSZ-XiGwMCVY4O3mApgLLJ_w23pZ4GHz53kOTBJk1Iodndj5zOrEYT" "20-Nov-2015 21:33:23.00 GMT" "/" ".google.no" nil]
+  [url-cookie "PREF" "ID=1111111111111111:FF=0:TM=1432244003:LM=1432244082:S=H8g1k0Y3ewDKh-7A" "08-Jul-2017 16:26:11.00 GMT" "/" ".google.no" nil])
+ (".hellointernet.fm"
+  [url-cookie "ss_cid" "6c817a3f-0c9c-427f-a15b-8305031e5b7f" "22-Aug-2017 12:10:18.00 GMT" "/" ".hellointernet.fm" nil])
+ (".www.hellointernet.fm"
+  [url-cookie "SS_MID" "6f827a8a-71a4-4509-b7ff-885b41f7e7b7idogdjrw" "20-Aug-2025 12:10:18.00 GMT" "/" ".www.hellointernet.fm" nil])
+ ("www.hellointernet.fm"
+  [url-cookie "ss_cid" "6c817a3f-0c9c-427f-a15b-8305031e5b7f" "24-Aug-2017 09:12:18.00 GMT" "/" "www.hellointernet.fm" nil])
+ (".stackoverflow.com"
+  [url-cookie "HttpOnly" nil "01-Jan-2055 00:00:00.00 GMT" "/" ".stackoverflow.com" nil]
+  [url-cookie "prov" "4c099e4a-cc81-4c3d-9f92-0b1dc9a3c7d7" "01-Jan-2055 00:00:00.00 GMT" "/" ".stackoverflow.com" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

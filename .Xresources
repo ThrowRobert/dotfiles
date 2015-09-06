@@ -1,0 +1,49 @@
+#include ".Xcolors"
+
+URxvt*scrollBar: false
+URxvt*cursorUnderline: 1
+!URxvt*letterspace: -5
+URxvt*letterspace: 20
+URxvt*fading: 10
+URxvt*fadeColor: #000000
+URxvt*cursorBlink: false
+URxvt*depth: 32
+URxvt*internalBorder: 10
+URxvt*dynamicColors: on
+URxvt.urgentOnBell: true
+
+!URxvt*font: xft:Monaco:pixelsize=11
+!URxvt*font: -*-boxxy-*-*-normal-*-14-*-*-*-*-*-*-*
+!URxvt*font: -*-termsyn-medium-r-*-*-14-*-*-*-*-*-*-*
+!URxvt*boldFont: -*-termsyn-bold-r-*-*-14-*-*-*-*-*-*-*
+URxvt*font: -*-terminus-medium-r-*-*-14-*-*-*-*-*-iso10646-*
+URxvt*boldFont: -*-terminus-bold-r-*-*-14-*-*-*-*-*-iso10646-*
+
+URxvt.tabbed.tabbar-fg: 0
+URxvt.tabbed.tabbar-bg: 8
+
+!URxvt*font: xft:terminus:hinting=true:pixelsize=12:antialias=false
+!URxvt*boldFont: xft:terminus:style=bold:hinting=true:pixelsize=12:antialias=false
+!URxvt*italicFont: xft:terminus:style=italic:hinting=true:pixelsize=12:antialias=false
+!URxvt*boldItalicFont: xft:terminus:style=bolditalic:hinting=true:pixelsize=12:antialias=false
+
+URxvt.iso14755: False
+
+Xft.antialias: 1
+Xft.autohint: 0
+Xft.dpi: 100
+Xft.hinting: 3
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
+Xft.rgba: rgb
+
+! xclock*majorColor: #9a875f
+! xclock*minorColor: #9a875f
+! xclock*minuteColor: #9a875f
+! xclock*hourColor: #9a875f
+! xclock*secondColor: #9a875f
+
+xclock*update: 1
+xclock*analog: true
+xclock*Foreground: #c5c8c6
+xclock*background: #1d1f21
