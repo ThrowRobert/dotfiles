@@ -1,8 +1,9 @@
 #! /bin/bash
 
 PANEL_FIFO="/tmp/panelfifo"
-PANEL_FONT_FAMILY="-*-terminus-medium-r-*-*-16-*-*-*-*-*-iso10646-*"
-# iso10646
+
+PANEL_FONT_FAMILY="-*-terminus-medium-r-*-*-14-*-*-*-*-*-iso10646-*"
+
 PATH=$PATH:$HOME/bin
 
 if [ $(pgrep -cx panel) -gt 1 ] ; then
@@ -35,7 +36,11 @@ function current_playing {
 
 function batteryinfo {
     #bat=$(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep per | awk '{ print $2; }')
+<<<<<<< HEAD
     bat=$(acpi -b | awk '{print$3$4,$5,$6;}')
+=======
+    bat=$(acpi -b | awk '{print$3$4;}')
+>>>>>>> e91da4182b9aa80e4aaf8496e6c74e59eab91a54
     echo 'Z'"$bat"
 }
 

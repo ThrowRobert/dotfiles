@@ -1,0 +1,26 @@
+#!/bin/bash
+read -p "What radioi channel do you want to listen on? < (m)ain | (cl)assic | (ch)ill | (co)untry | (p)op | (n)ews | (r)ock | (w)orld > " radio
+  	if [[ $radio == "m" ]]; then
+		mplayer http://stream.anonops.com:8080/AnonOps
+  	fi
+  	if [[ $radio == "cl" ]]; then
+		mplayer http://stream.anonops.com:8080/AnonClassic
+  	fi
+  	if [[ $radio == "ch" ]]; then
+		mplayer http://stream.anonops.com:8080/AnonChill
+  	fi
+  	if [[ $radio == "co" ]]; then
+		mplayer http://stream.anonops.com:8080/AnonCountry
+  	fi
+  	if [[ $radio == "p" ]]; then
+		mplayer http://stream.anonops.com:8080/AnonPop
+  	fi
+  	if [[ $radio == "n" ]]; then
+  		mplayer http://stream.anonops.com:8080/AnonNews	
+  	fi
+  	if [[ $radio == "r" ]]; then
+  		mplayer http://stream.anonops.com:8080/AnonRock
+  	fi
+  	if [[ $radio == "w" ]]; then
+  		mplayer http://stream.anonops.com:8080/AnonWorld	
+  	fi

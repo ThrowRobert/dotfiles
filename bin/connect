@@ -1,15 +1,22 @@
-sudo rfkill unblock all
-read "< (h) | (s) | (a) >"  connect
-if [[ $connect == "h" ]]; then
-	#statements
-	sudo netctl switch-to wlp2s0-queen
+#!/bin/bash
+read -p "Do you want to create new wifi connection? <y/N> " prompt
+
+if [[ $prompt == "y" ]]
+then
+  newWifi
+else
+  read -p "Want internet do you want to connect to? < (h)ome | (s)chool | (m)obile > " connect
+  	if [[ $connect == "h" ]]; then
+  		#echo "home selected"
+  		imhome
+  	fi
+  	if [[ $connect == "s" ]]; then
+  		#echo "school selected"
+  		imschool
+  	fi
+  	if [[ $connect == "m" ]]; then
+            # echo "Mobile mode selected!"
+            immobile
+      	fi
 fi
-if [[ $connect == "s" ]]; then
-	#statements
-	sudo netctl switch-to wlp2s0-NFK
-fi
-if [[ $connect == "a" ]]; then
-	#statements
-	sudo netctl switch-to wlp2s0-privat8482fin
-fi
-ip a | grep wlp2s0 | grep inet
+

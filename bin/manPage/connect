@@ -1,0 +1,14 @@
+.\" Manpage for connect.
+.TH man ~/bin "13 August 2015" "1.1" "connect man page"
+.SH NAME
+connect \- create a new wifi profile or eshablish exsisting profile connection.
+.SH USAGE
+connect
+.SH DESCRIPTION
+connect is a simple, yet usefull script that allow you to create or connect to predefined networks. usefull for switching from home and school networks.
+.SH OPTIONS
+The connect does not take any options. However, its simple to use.
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+H3 Xploit U (h3xploit@localhost)

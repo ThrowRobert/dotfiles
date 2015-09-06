@@ -30,7 +30,7 @@ while read -r line ; do
 			;;
 	        Z*)
 		        #battery monitor state thingy
-		        bat_perc="%{F$COLOR_BAT_FG}${line#?}%"
+		        bat_perc="%{F$COLOR_BAT_FG}${line#?}%{F-}"
 			;;
 		W*)
 			# bspwm internal state
@@ -86,5 +86,6 @@ while read -r line ; do
 			done
 			;;
 	esac
+
 	printf "%s\n" "%{l}${sys_infos} ${wm_infos} b: ${bat_perc} %{c}${title} %{r}${mpc_time} ${mpc_song}"
 done

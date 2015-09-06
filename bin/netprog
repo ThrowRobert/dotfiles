@@ -1,0 +1,6 @@
+echo "netctl - is the default program i use to connect to wifi"
+echo "wpa_supplicant - is a daemon and wifi connector"
+echo ""
+echo "NetworkManager - is a daemon that control wifi. Not configured yet"
+echo "Wicd / wicd-gtk - is a daemon and graphical Wifi connector"
+echo "connman - is a daemon and wifi connector"

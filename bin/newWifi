@@ -1,0 +1,9 @@
+# This script is created for intentions to fix wlp2s0 connection problems with its WiFi card
+# by H3Xploit
+netfix
+sudo ip link set wlp2s0 up
+ip a
+sleep 5
+sudo wifi-menu
+echo wifi setup, downing wlp2s0 aka wlan0
+sudo ip link set wlp2s0 down

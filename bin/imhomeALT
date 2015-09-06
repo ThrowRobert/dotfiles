@@ -1,0 +1,7 @@
+netfix
+echo Waiting for connection...
+sleep 5
+sudo netctl start wlp2s0-Inteno_35
+sleep 2
+netctl list
+ip a | grep wlp2s0

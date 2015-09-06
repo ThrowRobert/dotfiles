@@ -1,0 +1,15 @@
+#!/bin/bash
+read -p "Light mode < D | N | De > " prompt
+
+if [[ $prompt == "d" ]]
+then
+  daymode
+fi
+if [[ $prompt == "n" ]]
+then
+  nightmode
+fi
+if [[ $prompt == "de" ]]
+then
+  deepnightmode
+fi
