@@ -1,0 +1,10 @@
+*~
+.emacs.d/url/*
+.ncmpcpp/error*
+.authinfo
+.emacs.d/url/cookies
+.emacs.d/elpa/w3m-*
+/octave-workspace
+archives
+.emacs.d/elpa/archives*
+/.emacs.d/xkcd/*
